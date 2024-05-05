@@ -1,0 +1,43 @@
+@keyframes slideInFromLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.signup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("../../../public/images/bg.jpeg") center/cover no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.signup-box {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slideInFromLeft 0.5s ease-out;
+}
+
+.special-input {
+  background-color: #ffc107;
+  border: 2px solid #ffc107;
+  border-radius: 4px;
+  padding: 10px;
+}
+.signup-box .form-group {
+    margin-bottom: 20px; /* Adjust margin bottom as needed */
+}/* Add space between Form.Group elements */
+.signup-box .form-group  {
+  margin-bottom: 20px; /* Adjust margin bottom as needed */
+}
