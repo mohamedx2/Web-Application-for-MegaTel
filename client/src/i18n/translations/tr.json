@@ -1,0 +1,146 @@
+{
+    "home": {
+      "par": {
+        "redefiningCustomerService": "Müşteri Hizmetleri Mükemmelliğini Yeniden Tanımlama!",
+        "partnerWithMegaTel": "Büyük işletmeler için özel olarak uyarlanmış en üst düzey çağrı merkezi çözümleri için MegaTel ile iş ortağı olun, eşsiz destek ve memnuniyet sağlayın.",
+        "contactUs": "Bize Ulaşın"
+      },
+      "aboutUs": {
+        "title": "Hakkımızda",
+        "yearsOfSuccess": "Yenilgisiz 7 yıl",
+        "aboutDescription": "MegaTel, olağanüstü iletişim çözümlerine uzmanlaşmış önde gelen bir çağrı merkezi şirketidir. Yılların tecrübesi ile, size bireysel ihtiyaçlarınıza uygun yüksek kaliteli hizmetler sunuyoruz.",
+        "experience": "Yedi yıllık deneyim",
+        "partnerWithMegaTel": "Dünya çapında iş ortakları",
+        "colleagues": "Meslektaşlar ve sayı",
+        "projects": "Başarıyla tamamlanan projeler"
+      },
+      "qualityService": {
+        "title": "Kaliteli Hizmet",
+        "expertise": "Uzmanlık",
+        "expertiseDescription": "Derin uzmanlığa sahip uzmanlaşmış ekipler. Çalışanlar için sürekli eğitim.",
+        "flexibility": "Esneklik",
+        "flexibilityDescription": "İhtiyaca göre esnek hizmetler. İş büyümesi için ölçeklenebilir çözümler.",
+        "technology": "Teknoloji",
+        "technologyDescription": "Son teknoloji iletişim teknolojileri. Veri koruma için güvenlik protokolleri."
+      },
+      "characteristic": {
+        "committedToChanging": "Genç görüşlerle gelecek nesil için dünyayı değiştirmeye kararlı!",
+        "wePractice": "Sadece en iyisini uygularız:",
+        "sustainability": "Sürdürülebilirlik",
+        "sustainabilityAlt": "Sürdürülebilirlik",
+        "punctuality": "Dakiklik",
+        "punctualityAlt": "Dakiklik",
+        "modernTechnology": "Modern teknoloji",
+        "modernAlt": "Modern teknoloji",
+        "quality": "Kalite",
+        "qualityAlt": "Kalite"
+      },
+      "location": {
+        "ourLocations": "Konumlarımız",
+        "tunisia": "Tunus",
+        "tunisiaAddress": "2050 Tunus Caddesi, Ben Arous",
+        "bulgaria": "Bulgaristan",
+        "bulgariaAddress": "1000 Sofya Caddesi, Knyaz Boris",
+        "worldwide": "Dünya çapında",
+        "worldwideAddress": "Ana ofis"
+      },
+      "employer": {
+        "employerTitle": "Dünya lideri uluslararası bir şirketiz",
+        "mouradGherab": "Mourad Gherab",
+        "admirKolasinac": "Admir Kolaşinats",
+        "ceo": "CEO",
+        "coo": "COO"
+      }
+    },
+    "navbar": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "logout": "Çıkış Yap",
+      "login": "Giriş Yap"
+    },
+    "messages": {
+      "emailSent": "E-posta başarıyla gönderildi",
+      "emailFailed": "E-posta gönderilemedi",
+      "deleteSuccess": "Başarıyla silindi",
+      "loginSuccess": "Giriş başarılı",
+      "loginError": "Giriş hatası"
+    },
+    "dashboard": {
+      "adminDashboard": "Yönetici Paneli",
+      "emailLabel": "E-posta adresi",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "sendButton": "Yeni çalışanımıza gönder",
+      "cin": "TCKN",
+      "email": "E-posta",
+      "username": "Kullanıcı adı",
+      "phoneNumber": "Telefon Numarası",
+      "action": "İşlem",
+      "deleteButton": "SİL"
+    },
+    "footer": {
+      "customerSupport": "Müşteri desteği 24-7",
+      "supportTime": "Pazartesi'den Cumartesi'ye<br>9:00-21:00",
+      "copyright": "Telif Hakkı © 2024 GLSI2A G1"
+    },
+    "services": {
+      "services": "Hizmetler",
+      "telephony": "Telekomünikasyon",
+      "telephonyDescription": "Profesyonel telefon çağrılarına yanıt verme<br>7/24 müşteri desteği<br>Gelen ve giden hizmetler",
+      "emailProcessing": "E-posta işleme",
+      "emailProcessingDescription": "E-postaların hızlı ve doğru bir şekilde işlenmesi<br>Bireysel e-posta yanıtları<br>Taleplerin etkin yönetimi",
+      "officeInBulgaria": "Bulgaristan'daki Ofis",
+      "officeAddress": "Knyaz Boris I, 148, Kat 1<br>Vazrazhdane Bölgesi, Sofya,<br>Bulgaristan<br>TCKN: 206341672<br>KDV No.: BG206341672<br>+49 15215894603<br>info@mega-tel.de<br>marketing@mega-tel.de",
+      "ourLocations": "Konumlarımız",
+      "locationsList": "Yunanistan<br>Bulgaristan<br>Tunus"
+    },
+    "login": {
+      "welcome": "Hoş geldiniz",
+      "workspace": "İş alanımıza",
+      "login": "Giriş Yap",
+      "usernamePlaceholder": "Kullanıcı adı",
+      "passwordPlaceholder": "Parola",
+      "loginButton": "Giriş Yap",
+      "registrationLink": "Kayıt Ol"
+    },
+    "aboutUs": {
+      "title": "Hakkımızda",
+      "subtitle": "Dünya lideri uluslararası bir şirketiz",
+      "description": "Yedi YIL BOYUNCA YENİLGİSİZ BAŞARI! Mega Tel, 2015 yılından bu yana gelen çağrıları işleme konusunda uzmanlaşmıştır. Müşterilerimizle birlikte başarılıyız çünkü faaliyetlerimizi geçici ve uzun vadeli projelere mevcut iş süreçlerine en iyi şekilde entegre ediyoruz. Çalışanlarımız her gün birçok şirket için ve birçok sorumluluk alanında telefon görüşmeleri yapıyor. İş deneyimimiz, telefon sekreterliği, santral, sipariş alma, müşteri hizmetleri, bilgi hizmetleri, bilgi ve müşteri hizmeti yanı sıra tüm arka ofis görevleri gibi görevleri içerir. Bir profesyonel hizmet merkezi olarak, ulusal ve uluslararası şirketler için özel dış kaynak kullanımı çözümleri sunuyoruz. Gelen, pazar araştırması, satış, satış, potansiyel müşteri üretimi, reklamcılık, pazar araştırması, satış, sipariş kabul, birinci seviye destek veya şikayet yönetimi olsun, sizi destekliyoruz."
+      ,"revenue":"2015-2022 Gelir (milyon)",
+      "projects":"Başarılı Proje",
+      "yearsOfSuccess": "Yenilgisiz 7 yıl",
+      "experience": "Yedi yıllık deneyim",
+      "colleagues": "Meslektaşlar ve sayı"
+    },
+    "contact": {
+      "contactUs": "Bize Ulaşın",
+      "mainBranch": "Ana Şubemiz",
+      "mainBranchDescription": "MegaTel'in işinizi nasıl ilerletebileceğini daha fazla öğrenmek ister misiniz? Özel tavsiye için bize ulaşın. Sizlerle çalışmayı ve iletişim hedeflerinizi başarmayı dört gözle bekliyoruz. MegaTel ile birinci sınıf çağrı merkezi hizmetlerinin dünyasını keşfedin - mükemmel iletişim için güvenilir ortağınız!",
+      "address": "Adres",
+      "addressValue": "Sofia Caddesi 1000, Knyaz Boris",
+      "phone": "Telefon",
+      "phoneValue": "+4915215894603",
+      "email": "E-posta",
+      "emailValue": "info@mega-tel.de \nmarketing@mega-tel.de"
+    },
+    "myAccount": {
+      "myAccount": "Hesabım",
+      "userInformation": "Kullanıcı Bilgileri",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "email": "E-posta",
+      "mobile": "Telefon",
+      "currentPassword": "Mevcut Şifre",
+      "newPassword": "Yeni Şifre",
+      "profileImage": "Profil Resmi",
+      "saveChanges": "Değişiklikleri Kaydet",
+      "change": "Değiştir",
+      "joinCall": "Görüşmeye Katıl",
+      "noChangesDetected": "Değişiklik Bulunamadı",
+      "alertMessage": "Mesaj",
+      "userName": "Kullanıcı Adı",
+      "dateOfBirth": "Doğum Tarihi"
+    }
+  }
+  

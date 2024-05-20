@@ -1,3 +1,7 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /Admin
+Disallow: /user
+Disallow: /sign
+Disallow: /signup
+Disallow: /About
+Disallow: /

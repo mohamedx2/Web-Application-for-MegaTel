@@ -1,0 +1,146 @@
+{
+  "home": {
+
+    "par": {
+      "redefiningCustomerService": "Redefining Customer <br> Service Excellence!",
+      "partnerWithMegaTel": "Partner with MegaTel for top-tier call center solutions tailored to large enterprises,<br>  ensuring unmatched support and satisfaction.",
+      "contactUs": "Contact Us"
+    },
+    "aboutUs": {
+      "title": "About Us",
+      "yearsOfSuccess": "7 years of undefeated success",
+      "aboutDescription": "MegaTel is a leading call center company specializing in outstanding communications solutions. With many years of experience, we offer you high-quality services that are tailored to your individual needs.",
+      "experience": "Seven years of experience",
+      "partnerWithMegaTel": "Partnerships worldwide",
+      "colleagues": "Colleagues & counting",
+      "projects":"Projects successfully completed"
+    },
+    "qualityService": {
+      "title": "Quality Service",
+      "expertise": "Expertise",
+      "expertiseDescription": "Specialized teams with in-depth expertise. Continuous training for employees.",
+      "flexibility": "Flexibility",
+      "flexibilityDescription": "Flexible services as needed. Scalable solutions for business growth.",
+      "technology": "Technology",
+      "technologyDescription": "State-of-the-art communication technologies. Security protocols for data protection."
+    },
+    "characteristic": {
+      "committedToChanging": "Committed to changing the world for the next generation with younger opinions!",
+      "wePractice": "We practice only the best:",
+      "sustainability": "Sustainability",
+      "sustainabilityAlt": "Sustainability",
+      "punctuality": "Punctuality",
+      "punctualityAlt": "Punctuality",
+      "modernTechnology": "Modern technology",
+      "modernAlt": "Modern technology",
+      "quality": "Quality",
+      "qualityAlt": "Quality"
+    },
+    "location": {
+      "ourLocations": "Our locations",
+      "tunisia": "Tunisia",
+      "tunisiaAddress": "2050 Tunis Street, Ben Arous",
+      "bulgaria": "Bulgaria",
+      "bulgariaAddress": "1000 Sofia Street, Knyaz Boris",
+      "worldwide": "Worldwide",
+      "worldwideAddress": "Home office"
+    },
+    "employer": {
+      "employerTitle": "We are a world-leading international company",
+      "mouradGherab": "Mourad Gherab",
+      "admirKolasinac": "Admir Kolasinac",
+      "ceo": "CEO",
+      "coo": "COO"
+    }
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "logout": "Log out",
+    "login": "Login"
+  },
+  "messages": {
+    "emailSent": "Email sent successfully",
+    "emailFailed": "Failed to send email",
+    "deleteSuccess": "Deleted successfully",
+    "loginSuccess": "login with success",
+    "loginError": "fail to log in"
+  },
+  "dashboard": {
+    "adminDashboard": "Admin Dashboard",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter email",
+    "sendButton": "Send to our new worker",
+    "cin": "CIN",
+    "email": "Email",
+    "username": "Username",
+    "phoneNumber": "Phone Number",
+    "action": "Action",
+    "deleteButton": "DELETE"
+  },
+  "footer": {
+    "customerSupport": "Customer support 24-7",
+    "supportTime": "Monday to Saturday<br>9:00 AM-9:00 PM",
+    "copyright": "Copyright © 2024 GLSI2A G1"
+  },
+  "services": {
+    "services": "Services",
+    "telephony": "Telephony",
+    "telephonyDescription": "Professional telephone call answering<br>24/7 customer support<br>Inbound and outbound services",
+    "emailProcessing": "Email processing",
+    "emailProcessingDescription": "Fast and precise processing of emails<br>Individualized email responses<br>Efficient management of requests",
+    "officeInBulgaria": "Office in Bulgaria",
+    "officeAddress": "Knyaz Boris I, 148, Floor 1<br>Vazrazhdane District, Sofia,<br>Bulgaria<br>ID No.: 206341672<br>VAT No.: BG206341672<br>+49 15215894603<br>info@mega-tel.de<br>marketing@mega-tel.de",
+    "ourLocations": "Our locations",
+    "locationsList": "Greece<br>Bulgaria<br>Tunisia"
+  },
+  "login": {
+    "welcome": "Welcome",
+    "workspace": "To our work space",
+    "login": "Login",
+    "usernamePlaceholder": "Username",
+    "passwordPlaceholder": "Password",
+    "loginButton": "Login",
+    "registrationLink": "Registration"
+  },
+  "aboutUs": {
+    "title": "About Us",
+    "subtitle":"We are a world-leading international company",
+    "description":"OVER 7 YEARS OF EXPERIENCE we deliver quality and reliability! Mega Tel has specialized in processing inbound calls since 2015. We are successful together with our clients because we carry out the best possible integration of our activities into existing work processes in both temporary and long-term projects. Our employees make phone calls every day for many companies and in many areas of responsibility. Our work experience includes tasks such as telephone secretariat, switchboard, order taking, customer service, information service, information and customer care, as well as all back office tasks.<br><br><br><br>As a professional service center, we deliver tailor-made outsourcing solutions for companies nationally and internationally.  We support you in inbound, market research, sales, sales, lead generation, advertising, whether market research, sales, order acceptance, first level support or complaint management."
+    ,"revenue":"Revenue in 2015-2022 (million)",
+    "projects":"Project successful",
+    "yearsOfSuccess": "7 years of undefeated success",
+    "experience": "Seven years of experience",
+    "colleagues": "Colleagues & counting"
+  },
+  "contact": {
+    "contactUs": "Contact Us",
+    "mainBranch": "Our main branch",
+    "mainBranchDescription": "Would you like to learn more about how MegaTel can advance your business? Contact us for tailored advice. We look forward to working with you and achieving your communication goals. Discover the world of first-class call center services with MegaTel - your reliable partner for excellent communication!",
+    "address": "Address",
+    "addressValue": "1000 Sofia Street, Knyaz Boris",
+    "phone": "Phone",
+    "phoneValue": "+4915215894603",
+    "email": "E-mail",
+    "emailValue": "info@mega-tel.de \nmarketing@mega-tel.de"
+  },
+  "myAccount":{
+    "myAccount": "My Account",
+    "userInformation": "User Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "mobile": "Mobile",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "profileImage": "Profile Image",
+    "saveChanges": "Save Changes",
+    "change": "Change",
+    "joinCall": "Join Call",
+    "noChangesDetected": "No changes detected",
+    "alertMessage": "message",
+    "userName": "Username",
+    "dateOfBirth": "Date of Birth"
+  }
+}

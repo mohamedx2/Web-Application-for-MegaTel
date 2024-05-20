@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: start ;
+  }
+body{
+  overflow-x: hidden;
+  background: white;
+}

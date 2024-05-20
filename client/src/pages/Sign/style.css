@@ -1,0 +1,130 @@
+.login {
+  
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+}
+
+
+.login .back {
+  background: url("./pexels-tima-miroshnichenko-5453808.jpg");
+  background-size: cover;
+  width: 60%;
+  height: 100%;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .back h1 {
+  text-align: center;
+  color: #D95806;
+  font-size: 128px;
+  font-family: Roboto;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+.login .back h2 {
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  font-family: Roboto;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.login form {
+  background-color: #D95806;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 1s ease forwards; /* Fade-in animation */
+}
+
+.login form h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-bottom: 40px;
+}
+
+.login form input[type="text"],
+.login form input[type="password"] {
+  background: white;
+  border-radius: 39px;
+  width: 352px;
+  height: 72px;
+  padding: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-bottom: 52px;
+}
+
+.login form a {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-top: 10px;
+}
+
+.login form input[type="submit"] {
+  text-align: center;
+  border-radius: 39px;
+  border: 3px white solid;
+  width: 352px;
+  height: 72px;
+  background: transparent;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  word-wrap: break-word;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.login form input[type="submit"]:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login {
+      flex-direction: column;
+      height: auto;
+  }
+  .login .back h1 {
+      font-size: 50px;
+  }
+  .login form, .login .back {
+      height: 100vh;
+      width: 100%;
+  }
+}

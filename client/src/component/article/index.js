@@ -2,26 +2,40 @@ import React from 'react';
 import axios from 'axios';
 import { Form, Button } from 'react-bootstrap';
 
-function ArticleForm({ poster, title, setTitle, body, setBody, img, setImg, update }) {
+
+
+
+function ArticleForm({title, setTitle, body, setBody, img, setImg, update ,setUpdate,getUserArticles}) {
+  const BASE_URL="uyuvvgjh"
+  const token = localStorage.getItem('token'); // Get token from localStorage
   const insert_update = async () => {
     if (!update) {
       try {
-        const { data } = await axios.post(`${process.env.BASE_URL}/articles/new`, { poster, title, body, img })
+        const config = {
+          headers: { Authorization: `Bearer ${token}` }, // Include token in headers
+        };
+        const { data } = await axios.post(`${BASE_URL}/articles/new`, {title, body, img }, config) // Add config to POST request
         alert(data.message)
       } catch (error) {
         console.log(error)
       }
-    } else {
+    } 
+    else {
       try {
-        const { data } = await axios.put(`${process.env.BASE_URL}/articles/${update}`, { title, body, img })
+        const config = {
+          headers: { Authorization: `Bearer ${token}` }, // Include token in headers
+        };
+        const { data } = await axios.put(`${BASE_URL}/articles/${update}`, { title, body, img }, config) // Add config to PUT request
         alert(data.message)
       } catch (error) {
         console.log(error)
       }
     }
+    setUpdate('')
     setTitle('');
     setBody('');
     setImg('');
+    getUserArticles()
   };
 
   return (

@@ -1,46 +1,50 @@
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { useSelector } from "react-redux";
-import  {useDispatch} from "react-redux";
-import {logout} from '../../user';
-function MainNav() {
-  const state=useSelector((state)=>state.user?.value)
-  const dispatch=useDispatch()
+import { useTranslation } from 'react-i18next';
+import './style.css';
+import logo from './logo.png';
 
-  return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" bg="dark">
-      <Navbar.Brand as={Link} to="/">
-        all articles
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="me-auto">
-          <Nav.Link as={Link}  disabled={(state._id==='')} to="/myAccount">
-            MY Account
-          </Nav.Link>
-        </Nav>
-        <Nav className="me-auto">
-          <Nav.Link as={Link}  disabled={(state._id==='')} to={`/MyArticles`}>
-            MY Articles
-          </Nav.Link>
-        </Nav>
-        <Nav className="ml-auto bg-secondary text-light">
-          {state.password===""&& !JSON.parse(localStorage.getItem("user"))?(<Nav.Link as={Link} to="/Sign">
-            Log in
-          </Nav.Link>):(<Nav.Link as={Link} onClick={()=>{
-            localStorage.removeItem('user')
-            dispatch(logout())
-          }
-          } to="/Sign">
-            Log out
-          </Nav.Link>)}
-          <Nav.Link as={Link} eventKey={0} to="/SignUp">
-            Sign up
-          </Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-  );
+function MainNav({ LoggedIn,setLoggedIn }) {
+    const { t } = useTranslation(); // Hook for translation
+
+    const handleLogout = async () => {
+        localStorage.removeItem('token');
+        setLoggedIn(false);
+    };
+
+    
+    return (
+        <header className='header'>
+            <nav className="contanier">
+                <Link as={Link} to="/">
+                    <img src={logo} alt="Your Logo" height="50" />
+                </Link>
+                
+                <div className="nav-links">
+                    <Link to="/" className="a">
+                        {t('navbar.home')}
+                    </Link>
+                    <Link to="/About" className="a">
+                        {t('navbar.about')}
+                    </Link>
+                    <Link to="/Contact" className="a">
+                        {t('navbar.contact')}
+                    </Link>
+                    
+                    {LoggedIn ? (
+                        <Link className="a" id="login" onClick={handleLogout} to="/">
+                            {t('navbar.logout')}
+                        </Link>
+                    ) : (
+                        <Link className=" a" id="login" to="/Sign">
+                            {t('navbar.login')}
+                        </Link>
+                    )}
+                </div>
+                
+            </nav>
+        </header>
+    );
 }
+
 export default MainNav;

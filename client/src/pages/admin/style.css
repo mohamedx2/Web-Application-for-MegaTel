@@ -1,0 +1,183 @@
+
+
+  
+  /* Dashboard container */
+  .dashboard-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    height: auto;
+    background: white;
+  }
+  
+  .admin-title {
+    color: white;
+    font-size: 64px;
+    font-family: Roboto;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 50px;
+    
+    transform: translateY(-100%);
+    animation: fadeIn 0.8s ease-in-out; /* Apply fade-in animation to admin title */
+  }
+  
+  .background-image {
+    background-image: url('./418723917_311827795252281_4404345691754447707_n.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: center;
+    height: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Add border-bottom to all cells except the last one in each row */
+  
+  /* Action cell */
+ 
+  /* Delete button */
+  .delete-button {
+    width: 100px;
+    height: 36px;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 500;
+    background-color: #D95806;
+    margin: 0 auto;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+  }
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .delete-button:hover { 
+    background-color: #C24C4C;
+    opacity: 0.8; /* Adjust opacity on hover */
+    transform: translateY(-3px); /* Move button slightly upwards on hover */
+  }
+  
+  /* Animation */
+
+  /* Responsive styles */
+  @media screen and (max-width: 767px) {
+    .admin-title {
+      font-size: 40px;
+      top: 10px;
+    }
+  
+    .table th,
+    .table td {
+      padding: 8px;
+    }
+  
+    .delete-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 26px;
+      font-size: 12px;
+    }
+  
+    .dashboard-container {
+      padding-top: 100px;
+    }
+  }
+  .my-form {
+    width: 100%; /* Take full width */
+    max-width: 500px; /* Limit maximum width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding */
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+  
+  .my-input {
+    width: 100%; /* Take full width */
+    margin-bottom: 15px; /* Add margin below the input fields */
+  }
+  
+  .my-button {
+    width: 100%; /* Take full width */
+    background-color: #D95806; /* Change button background color */
+    color: white; /* Change button text color */
+    border: none; /* Remove button border */
+    border-radius: 8px; /* Add border radius */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .my-button:hover {
+    background-color: #C24C4C; /* Change button background color on hover */
+  }
+  /* Add these styles inside the existing media query for max-width: 767px */
+@media screen and (max-width: 767px) {
+  .admin-title {
+    font-size: 40px;
+    top: 10px;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px;
+  }
+
+  .delete-button {
+    width: 80px;
+    height: 26px;
+    font-size: 12px;
+  }
+
+  .dashboard-container {
+    padding-top: 100px;
+  }
+
+  .my-form {
+    width: 100%;
+    max-width: 100%; /* Adjust maximum width for smaller screens */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .my-input {
+    margin-bottom: 10px; /* Reduce margin for smaller screens */
+  }
+
+  .my-button {
+    padding: 8px 16px; /* Adjust padding */
+    font-size: 14px; /* Adjust font size */
+  }
+}
+.table-responsive {
+  overflow-x: auto;
+}
+
+  

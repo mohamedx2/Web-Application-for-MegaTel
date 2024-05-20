@@ -1,0 +1,109 @@
+.hero{
+    margin-top: 0;
+    width: 100%;
+    
+    background: url(./433396513_414477051167166_8350890453506934540_n.jpg);
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero h1{
+    color: white;
+    font-size: 64px;
+    font-family: Roboto;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.contact>div:nth-child(2){
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact>div:nth-child(2) h1{
+    color: black;
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding: 50px 0;
+}
+.contact>div:nth-child(2) p{
+    max-width: 637px;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.contact>div:last-child{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    flex-wrap: wrap;
+}
+.contact>div:last-child>div img{
+    max-width: 80px;
+
+}
+.contact>div:last-child>div h1{
+    text-align: center;
+    color: #1A1B1D;
+    font-size: 32px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+
+}
+.contact>div:last-child>div p{
+    text-align: center;
+    color: rgba(26, 27, 29, 0.50);
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+.contact>div:last-child>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-size: 64px;
+    }
+    .contact>div:last-child{
+        padding: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact>div:nth-child(2){
+        max-width: 100%;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .contact>div:nth-child(2) img{
+        max-width: 100%;
+        
+    }
+    
+}

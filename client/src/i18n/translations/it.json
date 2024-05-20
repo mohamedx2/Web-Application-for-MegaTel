@@ -1,0 +1,146 @@
+{
+    "home": {
+      "par": {
+        "redefiningCustomerService": "Ridefinizione dell'Eccellenza nel Servizio Clienti!",
+        "partnerWithMegaTel": "Collabora con MegaTel per soluzioni di call center di alto livello su misura per grandi imprese, garantendo supporto e soddisfazione imbattibili.",
+        "contactUs": "Contattaci"
+      },
+      "aboutUs": {
+        "title": "Chi Siamo",
+        "yearsOfSuccess": "7 anni di successi insuperati",
+        "aboutDescription": "MegaTel è una azienda leader nel settore dei call center specializzata in soluzioni di comunicazione eccezionali. Con molti anni di esperienza, offriamo servizi di alta qualità su misura per le tue esigenze individuali.",
+        "experience": "Sette anni di esperienza",
+        "partnerWithMegaTel": "Partnership in tutto il mondo",
+        "colleagues": "Colleghi e contando",
+        "projects": "Progetti completati con successo"
+      },
+      "qualityService": {
+        "title": "Servizio di Qualità",
+        "expertise": "Competenza",
+        "expertiseDescription": "Team specializzati con competenze approfondite. Formazione continua per i dipendenti.",
+        "flexibility": "Flessibilità",
+        "flexibilityDescription": "Servizi flessibili secondo necessità. Soluzioni scalabili per la crescita aziendale.",
+        "technology": "Tecnologia",
+        "technologyDescription": "Tecnologie di comunicazione all'avanguardia. Protocolli di sicurezza per la protezione dei dati."
+      },
+      "characteristic": {
+        "committedToChanging": "Impegnati a cambiare il mondo per la prossima generazione con opinioni più giovani!",
+        "wePractice": "Pratichiamo solo il meglio:",
+        "sustainability": "Sostenibilità",
+        "sustainabilityAlt": "Sostenibilità",
+        "punctuality": "Puntualità",
+        "punctualityAlt": "Puntualità",
+        "modernTechnology": "Tecnologia moderna",
+        "modernAlt": "Tecnologia moderna",
+        "quality": "Qualità",
+        "qualityAlt": "Qualità"
+      },
+      "location": {
+        "ourLocations": "I nostri luoghi",
+        "tunisia": "Tunisia",
+        "tunisiaAddress": "Via Tunis 2050, Ben Arous",
+        "bulgaria": "Bulgaria",
+        "bulgariaAddress": "Via Sofia 1000, Knyaz Boris",
+        "worldwide": "In tutto il mondo",
+        "worldwideAddress": "Sede centrale"
+      },
+      "employer": {
+        "employerTitle": "Siamo un'azienda internazionale leader a livello mondiale",
+        "mouradGherab": "Mourad Gherab",
+        "admirKolasinac": "Admir Kolasinac",
+        "ceo": "CEO",
+        "coo": "COO"
+      }
+    },
+    "navbar": {
+      "home": "Home",
+      "about": "Chi Siamo",
+      "contact": "Contatto",
+      "logout": "Esci",
+      "login": "Accedi"
+    },
+    "messages": {
+      "emailSent": "Email inviata con successo",
+      "emailFailed": "Invio dell'email non riuscito",
+      "deleteSuccess": "Eliminato con successo",
+      "loginSuccess": "Accesso riuscito",
+      "loginError": "Errore di accesso"
+    },
+    "dashboard": {
+      "adminDashboard": "Dashboard Admin",
+      "emailLabel": "Indirizzo email",
+      "emailPlaceholder": "Inserisci email",
+      "sendButton": "Invia al nostro nuovo lavoratore",
+      "cin": "CIN",
+      "email": "Email",
+      "username": "Nome utente",
+      "phoneNumber": "Numero di telefono",
+      "action": "Azione",
+      "deleteButton": "ELIMINA"
+    },
+    "footer": {
+      "customerSupport": "Supporto clienti 24-7",
+      "supportTime": "Dal lunedì al sabato<br>9:00-21:00",
+      "copyright": "Copyright © 2024 GLSI2A G1"
+    },
+    "services": {
+      "services": "Servizi",
+      "telephony": "Telefonia",
+      "telephonyDescription": "Risposta professionale al telefono<br>Supporto clienti 24/7<br>Servizi in entrata e in uscita",
+      "emailProcessing": "Elaborazione email",
+      "emailProcessingDescription": "Elaborazione rapida e precisa delle email<br>Risposte email personalizzate<br>Gestione efficiente delle richieste",
+      "officeInBulgaria": "Ufficio in Bulgaria",
+      "officeAddress": "Knyaz Boris I, 148, Piano 1<br>Distretto di Vazrazhdane, Sofia,<br>Bulgaria<br>Numero di identificazione: 206341672<br>Partita IVA: BG206341672<br>+49 15215894603<br>info@mega-tel.de<br>marketing@mega-tel.de",
+      "ourLocations": "I nostri luoghi",
+      "locationsList": "Grecia<br>Bulgaria<br>Tunisia"
+    },
+    "login": {
+      "welcome": "Benvenuto",
+      "workspace": "Al nostro spazio di lavoro",
+      "login": "Accedi",
+      "usernamePlaceholder": "Nome utente",
+      "passwordPlaceholder": "Password",
+      "loginButton": "Accedi",
+      "registrationLink": "Registrazione"
+    },
+    "aboutUs": {
+      "title": "Chi Siamo",
+      "subtitle": "Siamo un'azienda internazionale leader a livello mondiale",
+      "description": "DA PIÙ DI 7 ANNI OFFRIAMO QUALITÀ E AFFIDABILITÀ! Mega Tel si è specializzata nell'elaborazione delle chiamate in entrata dal 2015. Siamo di successo insieme ai nostri clienti perché integriamo al meglio le nostre attività nei processi lavorativi esistenti sia in progetti temporanei che a lungo termine. I nostri dipendenti effettuano chiamate telefoniche ogni giorno per molte aziende e in molteplici ambiti di responsabilità. La nostra esperienza lavorativa include attività come segreteria telefonica, centralino, presa d'ordine, assistenza clienti, servizio informazioni, assistenza informazioni e clienti, oltre a tutte le attività di back office.<br><br><br><br>Come centro servizi professionale, offriamo soluzioni di outsourcing su misura per le aziende a livello nazionale e internazionale. Ti supportiamo in chiamate in entrata, ricerche di mercato, vendite, generazione di lead, pubblicità, che sia ricerca di mercato, vendite, accettazione ordini, supporto di primo livello o gestione delle lamentele.",
+      "revenue": "Fatturato nel 2015-2022 (milioni)",
+      "projects": "Progetti di successo",
+      "yearsOfSuccess": "7 anni di successi insuperati",
+      "experience": "Sette anni di esperienza",
+      "colleagues": "Colleghi e contando"
+    },
+    "contact": {
+      "contactUs": "Contattaci",
+      "mainBranch": "La nostra filiale principale",
+      "mainBranchDescription": "Vuoi saperne di più su come MegaTel può far avanzare la tua attività? Contattaci per consulenza personalizzata. Non vediamo l'ora di collaborare con te e raggiungere i tuoi obiettivi di comunicazione. Scopri il mondo dei servizi di call center di prima classe con MegaTel - il tuo partner affidabile per una comunicazione eccellente!",
+      "address": "Indirizzo",
+      "addressValue": "1000 Via Sofia, Knyaz Boris",
+      "phone": "Telefono",
+      "phoneValue": "+4915215894603",
+      "email": "E-mail",
+      "emailValue": "info@mega-tel.de \nmarketing@mega-tel.de"
+    },
+    "myAccount": {
+      "myAccount": "Il mio account",
+      "userInformation": "Informazioni utente",
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "E-mail",
+      "mobile": "Cellulare",
+      "currentPassword": "Password attuale",
+      "newPassword": "Nuova password",
+      "profileImage": "Immagine del profilo",
+      "saveChanges": "Salva modifiche",
+      "change": "Cambia",
+      "joinCall": "Unisciti alla chiamata",
+      "noChangesDetected": "Nessuna modifica rilevata",
+      "alertMessage": "Messaggio",
+      "userName": "Nome utente",
+      "dateOfBirth": "Data di nascita"
+    }
+  }
+  

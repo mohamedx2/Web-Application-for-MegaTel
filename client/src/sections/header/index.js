@@ -1,17 +1,10 @@
 import {MainNav} from '../../component';
 import React from 'react';
-import {  Row, Col } from 'react-bootstrap';
 
-function Header({LoggedIn}) {
+function Header({LoggedIn,setLoggedIn}) {
   return (
-    <header className="sticky-top">
-      
-        <Row>
-          <Col>
-            <MainNav LoggedIn={LoggedIn}/>
-          </Col>
-        </Row>
-    </header>
+    
+      <MainNav LoggedIn={LoggedIn} setLoggedIn={setLoggedIn}/>
   );
 }
 

@@ -2,6 +2,8 @@
 import Home from "./home";
 import Sign from "./Sign";
 import SignUp from "./signUp";
-import MyArticles from "./MyArticles";
 import MyAccount from "./MyAccount";
-export {Home,Sign,MyArticles,SignUp,MyAccount}
+import AdminDashboard from "./admin";
+import AboutUs from "./about";
+import Contact from "./contact";
+export {Home,Sign,SignUp,MyAccount,AdminDashboard,AboutUs,Contact}
